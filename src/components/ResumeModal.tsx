@@ -141,7 +141,7 @@ AREAS OF WORK
               </a>
               <span>·</span>
               <a href={contactInfo.telegram} target="_blank" rel="noreferrer" className="hover:text-rose-400">
-                Telegram
+                Telegram: @olimjonov67
               </a>
               <span>·</span>
               <a href={contactInfo.github} target="_blank" rel="noreferrer" className="hover:text-rose-400">

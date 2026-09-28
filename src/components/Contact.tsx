@@ -123,9 +123,10 @@ export const Contact: React.FC<ContactProps> = ({
                       href={contactInfo.telegram}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-xs sm:text-sm font-mono text-zinc-200 hover:text-rose-400 transition-colors truncate block"
+                      className="text-xs sm:text-sm font-mono text-zinc-200 hover:text-rose-400 transition-colors truncate flex items-center gap-1.5"
                     >
-                      {contactInfo.telegram}
+                      <span>@olimjonov67</span>
+                      <span className="text-zinc-500 font-sans text-[11px]">({contactInfo.telegram})</span>
                     </a>
                   </div>
                 </div>

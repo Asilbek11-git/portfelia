@@ -1,7 +1,7 @@
 import { ProjectItem, ServiceArea, ExperienceItem, ContactInfo } from '../types';
 
 export const initialContactInfo: ContactInfo = {
-  telegram: 'https://t.me/Asilbek_Olimjonov',
+  telegram: 'https://t.me/olimjonov67',
   email: 'shokirovnrmattllo@gmail.com',
   linkedin: 'https://linkedin.com/in/asilbek-olimjonov',
   github: 'https://github.com/Asilbek11-git',

@@ -76,6 +76,17 @@ export const Hero: React.FC<HeroProps> = ({
               </a>
 
               <a
+                href={contactInfo.telegram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-4 py-3 rounded-xl text-xs sm:text-sm font-semibold uppercase tracking-wider border border-sky-500/40 hover:border-sky-400 text-sky-400 hover:text-sky-300 transition-all bg-sky-950/20"
+                title="Direct message on Telegram: @olimjonov67"
+              >
+                <Send className="w-3.5 h-3.5 text-sky-400" />
+                <span>Telegram: @olimjonov67</span>
+              </a>
+
+              <a
                 href={contactInfo.github}
                 target="_blank"
                 rel="noopener noreferrer"

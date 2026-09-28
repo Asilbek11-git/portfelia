@@ -29,7 +29,12 @@ export default function App() {
     const saved = localStorage.getItem('ao_contact_info');
     if (saved) {
       try {
-        return JSON.parse(saved);
+        const parsed = JSON.parse(saved);
+        return {
+          ...initialContactInfo,
+          ...parsed,
+          telegram: parsed.telegram && parsed.telegram.includes('Asilbek_Olimjonov') ? initialContactInfo.telegram : (parsed.telegram || initialContactInfo.telegram),
+        };
       } catch {
         return initialContactInfo;
       }

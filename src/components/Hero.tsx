@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowDown, Github, Send, Terminal, Database, Bot, Server, MapPin } from 'lucide-react';
 import { ContactInfo, Language } from '../types';
+import profileImage from '../assets/images/asilbek_16yo_portrait_1790606115951.jpg';
 
 interface HeroProps {
   contactInfo: ContactInfo;
@@ -116,7 +117,7 @@ export const Hero: React.FC<HeroProps> = ({
               {/* Inner container */}
               <div className="relative aspect-[3/4] w-full rounded-xl overflow-hidden bg-zinc-950">
                 <img
-                  src="/src/assets/images/asilbek_16yo_portrait_1790606115951.jpg"
+                  src={profileImage}
                   alt="Asilbek Olimjonov - Python Backend Developer"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-center filter grayscale contrast-110 group-hover:grayscale-0 transition-all duration-500"
